@@ -1,0 +1,3 @@
+include ':openCVLibrary3414'
+include ':app'
+rootProject.name = "PhotoClips"

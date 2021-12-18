@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/convert_scrollview"
+    android:background="@color/pink"
+    tools:context=".Display.ConvertingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/Button_Padding"
+        android:orientation="vertical">
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/Adjust"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="@dimen/Mainfontsize"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--        </TextView>-->
+        <ImageView
+            android:id="@+id/originalpic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/Button_Padding"
+            tools:src="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/Button_Padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingRight="@dimen/Button_Padding"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="@dimen/Button_Padding"
+            android:id="@+id/destpic"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            tools:src="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Button_Padding"
+            android:layout_marginBottom="@dimen/Button_Padding"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/Button_Padding">
+            <Button
+                android:id="@+id/dialog_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginLeft="@dimen/Button_Padding"
+                android:background="@drawable/button"
+                android:text="@string/Delete" />
+            <Button
+                android:id="@+id/dialog_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/Button_Padding"
+                android:textColor="@color/white"
+                android:background="@drawable/button"
+                android:text="@string/Convert" />
+            <Button
+                android:id="@+id/dialog_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Button_Padding"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:text="@string/DialogConfirm"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

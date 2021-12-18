@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Button_Padding">20dp</dimen>
+    <dimen name="Dialog_Margin">30dp</dimen>
+    <dimen name="Get_Start">80dp</dimen>
+    <dimen name="SubpicMargin">2dp</dimen>
+    <dimen name="recycleMargin">5dp</dimen>
+    <dimen name="Mainfontsize">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
